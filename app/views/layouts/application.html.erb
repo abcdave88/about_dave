@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AboutDave</title>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="inline">
+  <div class="header">
+    <h1>Dave James</h1>
+  </div>
+<div class="nav-contain">
+ <ul>
+    <li><%=link_to("Home", root_path, class: "menu")%></li>
+
+    <li><%=link_to("About", about_path, class: "menu")%></li>
+
+    <li><%=link_to("Facts", facts_path, class: "menu")%></li>
+
+    <li><%=link_to("Media", media_path, class: "menu")%></li>
+
+    <li><%=link_to("Contact", contact_path, class: "menu")%></li>
+
+ </ul>
+
+ </div>
+ </div>
+
+ </div>
+ </div>
+<div class="content">
+<%= yield %>
+</div>
+
+<div class="foot">
+  <footer>
+    <h4>All work and no play makes Dave a dull boy</h4>
+  </footer>
+</div>
+
+</body>
+</html>

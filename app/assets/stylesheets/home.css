@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+  color:white;
+  font-family: 'Rock salt';
+}
+
+.inline {
+  margin-left:25px;
+  margin-top:-100px;
+}
+
+.header{
+  float: left;
+  clear: none;
+}
+
+
+.header h1 {
+color: white;
+font-family: 'Rock salt';
+font-size: 150px;
+text-shadow: -2px 6px 25px rgba(57, 255, 20, 1);
+border-bottom: 1px solid rgba(255, 255, 255, 1);
+display: inline-block;
+}
+
+.nav-contain .menu:hover {
+ color:rgba(255, 255, 255, 0.6);
+}
+
+.nav-contain {
+  display: inline-block;
+  margin-top: 125px;
+}
+
+.nav-contain .menu {
+text-decoration: none;
+color: white;
+font-size:28px;
+}
+
+.content {
+  margin-right: auto;
+  margin-left:  auto;
+  width: 800px;
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+}
+
+.facts {
+  padding:10px;  
+
+}
+
+.content .facts li{
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  margin:5px;
+  padding:5px;
+
+}
+.image {
+  height:450px;
+  width: 450px;
+}
+
+.email{
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.email a {
+  text-decoration: none;
+  color:white;
+  text-shadow: -2px 6px 25px rgba(57, 255, 20, 1);
+}
+
+.email a:hover {
+  text-decoration: none;
+  color:rgba(57, 255, 20, 0.6);
+}
+
+.video p{
+font-size: 20px;
+
+}
+
+.foot {
+  margin-right: auto;
+  margin-left:  auto;
+  width: 800px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+
+
+
